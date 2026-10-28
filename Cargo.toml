@@ -1,0 +1,13 @@
+[package]
+name = "un_imo_maritime_ai"
+version = "0.1.0"
+edition = "2021"
+description = "IMO MaritimeTrace AI: Global Ship Energy Efficiency Telemetry, Sovereign Flag State Registry and Marine Decarbonization Audits"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
